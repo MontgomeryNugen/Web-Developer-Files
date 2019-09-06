@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Exercise</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<form>
+
+	<div>
+	<label for="firstName">First Name:</label>
+	<input id="firstName" type="text" placeholder="John" required>
+
+	<label for="lastName">Last Name:</label>
+	<input id="lastName" type="text" placeholder="Smith" required>
+	</div>
+
+	<div>
+	<label for="Male">Male</label>
+	<input id="Male" type="radio" name="sexChoice" value="Male">
+
+	<label for="Female">Female</label>
+	<input id="Female" type="radio" name="sexChoice" value="Female">
+
+	<label for="Other">Other</label>
+	<input id="Other" type="radio" name="sexChoice" value="Other">
+	</div>
+
+	<div>
+	<label for="Email">Email:</label>
+	<input id="email" type="email" placeholder="email" required>
+
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" required>
+	</div>	
+
+	Birthday:
+	<select name="Month">
+		<option value="January">January</option>
+		<option value="April">April</option>
+		<option value="July">July</option>
+		<option value="December">December</option>
+	</select>
+	<select name="Day">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="12">12</option>
+		<option value="30">30</option>
+	</select>
+	<select name="Year">
+		<option value="1967">1967</option>
+		<option value="1976">1976</option>
+		<option value="1986">1986</option>
+		<option value="2020">2020</option>
+	</select>
+
+	<div>
+	<label for="acknowledge">I agree to the terms and condotions. </label>
+	<input id="acknowledge" type="checkbox" required>
+	</div>
+
+	<button>Submit</button>
+
+	</form>
+
+</body>
+</html>
